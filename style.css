@@ -1,0 +1,272 @@
+body {
+    background-color:#ECF2F8;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    border-radius: 10px;
+    background-color:#FFFFFF;
+    width: 730px;
+    height: 280px;
+    margin: 0 auto;
+    margin-top: 250px;
+}
+
+.right {
+    padding: 15px;
+}
+.left img {
+    width: 285px;
+    height: 280px;
+}
+
+.right h1 {
+    font-family: Manrope;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 28px;
+    letter-spacing: 0.25px;
+    color: #48556A;
+}
+
+.right span {
+    font-family: Manrope;
+    font-style: normal;
+    font-weight: 200;
+    font-size: 13px;
+    line-height: 20px;
+    letter-spacing: 0.121875px;
+    color: #6E8098;
+}
+
+.profile {
+    display: flex;
+
+}
+
+.profile img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-top: 4px;
+}
+
+.profile .text p {
+    margin:5px;
+    font-size: 13px;
+    color: #9DAEC2;
+    font-family: Manrope;
+}
+
+.name {
+    color: #48556A !important;
+    font-weight: bold;
+}
+
+/* .fa-share { */
+    /* color: grey; */
+    /* font-size: 20px; */
+   
+    /* border-radius: 50%; */
+    /* background-color: #ECF2F8; */
+    /* padding: 5px; */
+
+
+/* this is for drop down button */
+.dropbtn {
+  background-color:#6E8098;
+  color: white;
+  border-radius: 50%;
+  padding: 5px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  position: absolute;
+  left: 390px;
+  top: -35px;
+}
+
+.dropbtn:hover, .dropbtn:focus {
+  background-color:#536174;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #48556A;
+  min-width: 160px;
+  overflow: auto;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  position: absolute;
+  left: 310px;
+  top: -80px;
+}
+
+.dropdown-content a {
+  color: white;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color:  #3a4455}
+
+.show {display:inline-flex; border-radius: 8px;}
+.dropdown span {
+    color:#9DAEC2;
+}
+
+/* this is mobile design */
+@media screen and (max-width: 600px) { 
+    .container {
+        width: 327px;
+        height: 490px;
+        position: relative;
+        margin-top: 30px;      
+    }
+    
+    /* .right {
+        padding: 15px;
+    } */
+    .left img {
+        
+        width: 327px;
+        height: 200px;
+        
+
+    }
+    
+    .right h1 {
+        position: absolute;
+        width: 263px;
+        height: 72px;
+        left: 30px;
+        top: 210px;
+        font-family: Manrope;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 16px;
+        line-height: 24px;
+        letter-spacing: 0.2px;
+        color: #48556A;
+    }
+    
+    .right span {
+        position: absolute;
+        width: 263px;
+        height: 100px;
+        left: 30px;
+        top: 310px;
+        font-family: Manrope;
+        font-style: normal;
+        font-weight: 200;
+        font-size: 13px;
+        line-height: 20px;
+        letter-spacing: 0.121875px;
+        color: #6E8098;
+    }
+    
+    .profile {
+        position: absolute;
+        width: 172px;
+        height: 40px;
+        left: 30px;
+        top: 426px;
+    }
+    
+    .profile img {
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        margin-top: 4px;
+    }
+    
+    .profile .text p {
+        margin:5px;
+        font-size: 13px;
+        color: #9DAEC2;
+        font-family: Manrope;
+    }
+    
+    .name {
+        color: #48556A !important;
+        font-weight: bold;
+    }
+    
+    
+    /* this is for drop down button */
+    .dropbtn {
+      background-color:#6E8098;
+      color: white;
+      border-radius: 50%;
+      padding: 5px;
+      font-size: 16px;
+      border: none;
+      cursor: pointer;
+      position: absolute;
+      width: 32px;
+      height: 32px;
+      left: -65px;
+      top: 390px;
+      
+    }
+    
+    .dropbtn:hover, .dropbtn:focus {
+      background-color:#536174;
+    }
+    
+    .dropdown {
+      position: relative;
+      display: inline-block;
+    }
+    
+    .dropdown-content {
+      display: none;
+      position: absolute;
+      background-color: #48556A;
+      box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+      width: 327px;
+      left: -342px;
+      top: 370px;
+      border-radius: 0px 0px 8px 8px;
+      height: 74px;
+    }
+
+    .fa-facebook {
+        font-size: 30px;
+    }
+
+    .fa-pinterest-square {
+        text-align: center;
+        font-size: 30px;
+    }
+
+    .fa-twitter {
+        text-align: center;
+        font-size: 30px;
+    }
+
+    .dropdown-content span {
+        position: absolute;
+        top: 10px;
+        left:5px;
+        color:#9DAEC2;
+    }
+    
+    .dropdown-content a {
+      color: white;
+      text-decoration: none;
+      display: block;
+    }
+    
+    .dropdown-content a:hover {background-color:  #3a4455}
+    
+    .show {display:inline-flex; border-radius: 8px;}
+}
